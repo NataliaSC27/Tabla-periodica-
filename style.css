@@ -1,0 +1,91 @@
+
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+  text-align: center;
+  transform: scale(0.9);    
+  transform-origin: center;
+}
+ 
+.elemento {
+  border: 1px solid #333;
+  width: 65px;
+  height: 65px;
+  padding: 2px;
+  border-radius: 6px;
+  font-family: Arial, sans-serif;
+  transition: transform 0.2s;
+}
+ 
+.elemento:hover {
+  transform: scale(1.15);
+  cursor: pointer;
+  box-shadow: 0 0 8px rgba(0,0,0,0.3);
+}
+ 
+.numero {
+  font-size: 8px;
+  text-align: left;
+  color: #222;
+}
+ 
+.simbolo {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+ 
+.nombre {
+  font-size: 9px;
+  text-align: center;
+}
+ 
+.masa {
+  font-size: 8px;
+  text-align: right;
+  color: #444;
+}
+ 
+.no_metales {
+  background-color: #ffcc99;   /* Naranja claro */
+}
+ 
+.gases_nobles {
+  background-color: #99ccff;   /* Azul claro */
+}
+ 
+.metales_alcalinos {
+  background-color: #ff9999;   /* Rojo claro */
+}
+ 
+.metales_alcalinoterreos {
+  background-color: #ffd699;   /* Amarillo mostaza */
+}
+ 
+.metales_transicion {
+  background-color: #cccccc;   /* Gris claro */
+}
+ 
+.metales_postransicion {
+  background-color: #c2d6d6;   /* Verde grisáceo */
+}
+ 
+.metaloides {
+  background-color: #aaffaa;   /* Verde claro */
+}
+ 
+.lantanidos {
+  background-color: #cc99ff;   /* Lila */
+}
+ 
+.actinidos {
+  background-color: #ff99cc;   /* Rosa */
+}
+ 
+.halogenos {
+  background-color: #ffff99;   /* Amarillo claro */
+}
+ 
+.otros_metales {
+  background-color: #e6e6e6;   /* Gris más tenue */
+}
